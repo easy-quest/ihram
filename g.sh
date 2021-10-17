@@ -4,7 +4,7 @@ function G {
   git add -A
   commit=$(git status)
   git commit -m "$commit"
-  git push
+  git push --set-upstream origin dev
   }
   
   G
